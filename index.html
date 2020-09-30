@@ -20,36 +20,56 @@
     </header>
     <main>
         <section class="main-section">
-        <div>
             <!-- header -->
-        </div>
+        <h2>Rock, Paper or Scissors</h2>
+        <!-- instructions and Rules -->
+        <h3>Can you beat Mr Roboto in in a clasic game of Rock, Paper or Scissors? Make your selection by clicking on it and hit play.</h3>
+        <ul>
+            Rules:
+            <li>paper beats rock</li>
+            <li>rock beats scissors</li>
+            <li>scissors beats papers</li>
+        </ul>
+        <!-- rock radio button -->
         <lable>
-            <!-- instructions -->
+            <input 
+            type="radio" 
+            name="throws" 
+            value="rock"
+            checked
+            />
+            <img src="" alt="">
         </lable>
+        <!-- paper radio button -->
         <lable>
-            <!-- rock radio button -->
+            <input 
+            type="radio" 
+            name="throws" 
+            value="paper"
+            />
+            <img src="" alt="">
         </lable>
+        <!-- scissors radio button -->
         <lable>
-            <!-- paper radio button -->
+            <input 
+            type="radio" 
+            name="throws" 
+            value="paper"
+            />
+            <img src="" alt="">
         </lable>
-        <lable>
-            <!-- rock radio button -->
-        </lable>
-        <button> 
-             <!-- play button -->
-        </button>
-        <span>
-            <!-- resulst message -->
-        </span>
-        <span>
+        <!-- play button -->
+        <button id='play-button'>Play!</button>
+        <!-- result message -->
+        <span id='result-message'></span>
+        <div>
             <!-- wins -->
-        </span>
-        <span>
+            Wins:<span id='win-tracker'> 0</span>
             <!-- losses -->
-        </span>
-        <span>
+            Losses:<span id='loss-tracker'> 0</span>
             <!-- draws -->
-        </span>
+            Draws:<span id='draw-tracker'> 0</span>
+        </div>
         </section>
     </main>
     <footer>
