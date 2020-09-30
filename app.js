@@ -14,7 +14,7 @@ let losses = 0;
 let draw = 0;
 
 // set event listeners to update state and DOM
-button.addEventListener('clicked', () => {
+button.addEventListener('click', () => {
     const getRandomThrow = Math.ceil(Math.random() * 3);
   
     let throwIs;
@@ -30,5 +30,6 @@ button.addEventListener('clicked', () => {
     else if (getRandomThrow === 3){
         throwIs = 'scissors';
     }
-    return throwIs;
+    // return throwIs;
+    console.log(throwIs);
 });
