@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { getRandomThrow } from '../utils.js';
+import { getRandomThrow, whoWon } from '../utils.js';
 
 const test = QUnit.test;
 
@@ -18,3 +18,5 @@ test('should randomly throw rock, papar or scissors', (expect) => {
 
 //use for test
 // expect.equal(typeof actual, 'string');
+
+//Add test for whoWon function

@@ -19,34 +19,6 @@ export function getRandomThrow() {
     }
     return computerThrow;
 }
-// export function userWins() {
-//   wins++
-//   winSpan.textContent
-//   resultsSpan.textContent
-// }
-
-// export function userLosses() {
-//   losses++
-//   lossesSpan.textContent
-//   resultsSpan.textContent
-// }
-
-// export function draw() {
-//   draw++
-//   drawSpan.textContent
-//   resultsSpan.textContent
-// }
-
-// export function whoWon(userThrow, computerThrow) {
-//     if (userThrow === 'paper' && computerThrow === 'rock'){
-//         return userWins();
-//     } else if (userThrow === 'rock' && computerThrow === 'paper'){
-//       return userLosses();
-//     } else if (userThrow === 'rock' && computerThrow === 'rock'){
-//       return draw();
-//     } else if (userThrow === 'rock' && computerThrow === 'rock'){
-//       return draw();
-// }
 
 export function whoWon(userThrow, computerThrow) {
     if (userThrow === computerThrow) {
