@@ -20,28 +20,56 @@
     </header>
     <main>
         <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
-
-            <content>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-
+            <!-- header -->
+        <h2>Rock, Paper or Scissors</h2>
+        <!-- instructions and Rules -->
+        <h3>Can you beat Mr Roboto in in a clasic game of Rock, Paper or Scissors? Make your selection by clicking on it and hit play.</h3>
+        <ul>
+            Rules:
+            <li>paper beats rock</li>
+            <li>rock beats scissors</li>
+            <li>scissors beats papers</li>
+        </ul>
+        <!-- rock radio button -->
+        <lable> Rock
+            <input 
+            type="radio" 
+            name="throws" 
+            value="rock"
+            checked
+            />
+            <img src="" alt="">
+        </lable>
+        <!-- paper radio button -->
+        <lable> Paper
+            <input 
+            type="radio" 
+            name="throws" 
+            value="paper"
+            />
+            <img src="" alt="">
+        </lable>
+        <!-- scissors radio button -->
+        <lable> Scissors
+            <input 
+            type="radio" 
+            name="throws" 
+            value="paper"
+            />
+            <img src="" alt="">
+        </lable>
+        <!-- play button -->
+        <button id='play-button'>Play!</button>
+        <!-- result message -->
+        <span id='result-message'></span>
+        <div>
+            <!-- wins -->
+            Wins:<span id='win-tracker'> 0</span>
+            <!-- losses -->
+            Losses:<span id='loss-tracker'> 0</span>
+            <!-- draws -->
+            Draws:<span id='draw-tracker'> 0</span>
+        </div>
         </section>
     </main>
     <footer>
