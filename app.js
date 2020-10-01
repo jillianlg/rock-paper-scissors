@@ -14,7 +14,6 @@ let draws = 0;
 // set event listeners to update state and DOM
 button.addEventListener('click', () => {
     const computerThrow = getRandomThrow();
-  
     const checkedRadio = document.querySelector(':checked');
     const userThrow = checkedRadio.value;
 
