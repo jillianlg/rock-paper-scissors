@@ -13,7 +13,7 @@ test('should randomly throw rock, papar or scissors', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    // expect.equal(typeof actual, 'string');
+    expect.equal(typeof actual, 'string');
 });
 
 //use for test
