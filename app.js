@@ -40,4 +40,7 @@ button.addEventListener('click', () => {
 
 });
 
-
+function clear()
+{
+    document.getElementById("myForm").reset();
+}
