@@ -37,7 +37,7 @@ export function whoWon(userThrow, computerThrow) {
         return 'win';
     }
     if (userThrow === 'rock' && computerThrow === 'scissors') {
-        return 'lose';
+        return 'win';
     }
     if (userThrow === 'rock' && computerThrow === 'paper') {
         return 'lose';

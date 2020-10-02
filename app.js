@@ -36,8 +36,6 @@ button.addEventListener('click', () => {
         drawSpan.textContent = draws;
         resultsSpan.textContent = 'It\'s a draw. Try again!';
     }
-
-
 });
 
 
