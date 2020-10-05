@@ -22,23 +22,18 @@ button.addEventListener('click', () => {
         wins++;
 
         winSpan.textContent = wins;
-        resultsSpan.textContent = 'You Lost. Try again!';
+        resultsSpan.textContent = 'You Won.';
     }
     if (throwResults === 'lose') {
         losses++;
 
         lossesSpan.textContent = losses;
-        resultsSpan.textContent = 'You Lost. Try again!';
+        resultsSpan.textContent = 'You Lost.';
     }
     if (throwResults === 'draw') {
         draws++;
 
         drawSpan.textContent = draws;
-        resultsSpan.textContent = 'It\'s a draw. Try again!';
+        resultsSpan.textContent = 'It\'s a Draw.';
     }
 });
-
-function clear()
-{
-    document.getElementById("myForm").reset();
-}
