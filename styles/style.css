@@ -96,7 +96,7 @@ ul li {
     margin: 10px;
 }
 
-lable {
+label {
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -110,9 +110,10 @@ input[type="radio"]:checked + img {
     transform: scale(0.75);
 }
 
-/* input[type="radio"] {
+input[type="radio"] {
     display: none;
-} */
+}        
+
 .play-button {
     margin-bottom: 10px;
 }
